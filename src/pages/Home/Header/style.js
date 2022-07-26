@@ -35,13 +35,13 @@ export const ContainerHeader = styled.header`
     }
 
     @media (min-width: 769px) {
-        padding: 2rem;
+        padding: 2rem 4rem;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
 
         .logo{
-            height: 1.6rem;
+            height: 1.4rem;
         }
 
         .content-button{

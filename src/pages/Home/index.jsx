@@ -1,4 +1,5 @@
 import { Header } from "./Header"
+import { Presentation } from "./Presentation"
 import { ContainerHome } from "./style"
 
 export const Home = () => {
@@ -7,6 +8,7 @@ export const Home = () => {
       <>
         <ContainerHome>
             <Header/>
+            <Presentation/>
         </ContainerHome>
       </>
     )

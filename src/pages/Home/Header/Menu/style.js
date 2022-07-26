@@ -15,7 +15,7 @@ export const ContainerMenu = styled.div`
     a{
         text-decoration: none;
         color: ${({ theme }) => theme.textColor};
-        font-size: 1rem;
+        font-size: .859rem;
     }
 
     a:hover{
