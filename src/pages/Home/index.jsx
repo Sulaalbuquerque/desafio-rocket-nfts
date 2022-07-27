@@ -1,3 +1,4 @@
+import { Description } from "./Description"
 import { Gallery } from "./Gallery"
 import { Header } from "./Header"
 import { Presentation } from "./Presentation"
@@ -13,6 +14,7 @@ export const Home = () => {
               <Presentation/>
               <Gallery/>
             </div>
+            <Description/>
         </ContainerHome>
       </>
     )
