@@ -37,7 +37,7 @@ export const ContainerPresentation = styled.section`
         font-size: .8rem;
     }
 
-    h1{
+    h2{
         font-weight: 700;
         font-size: 1.5rem;
     }
@@ -53,7 +53,7 @@ export const ContainerPresentation = styled.section`
         align-items: center;
     }
 
-    .content-title h1{
+    .content-title h2{
         line-height: 2.3rem;
     }
 

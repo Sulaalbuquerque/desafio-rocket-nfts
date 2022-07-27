@@ -19,7 +19,7 @@ export const Presentation = () => {
             </div>
           </div>
           <div className="content-title">
-            <h1>Descubra a verdadeira arte digital e colecione diversas <span className="detail-h1">NFTs</span></h1>
+            <h2>Descubra a verdadeira arte digital e colecione diversas <span className="detail-h1">NFTs</span></h2>
             <img className="stamp" src={imgStampRocketseat} alt="Selo rocketseat" />
           </div>
         </ContainerPresentation>

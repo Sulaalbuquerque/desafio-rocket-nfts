@@ -10,7 +10,7 @@ function App() {
     <>
       <ThemeProvider theme={dark}>
         <GlobalStyle/>
-        <Home/>
+          <Home/>
       </ThemeProvider>
     </>
   )

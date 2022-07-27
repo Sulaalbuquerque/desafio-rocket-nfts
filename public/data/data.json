@@ -1,0 +1,32 @@
+{
+    "cards" : [
+        {
+            "id": 1,
+            "astronaut": "Astronauta 1",
+            "name": "Mayk Brito", 
+            "rkt": 1.50,
+            "image": "../assets/imgs/astronauta-1.png"
+        },
+        {
+            "id": 2,
+            "astronaut": "Astronauta 2",
+            "name": "Jakeliny Gracielly", 
+            "rkt": 2.0,
+            "image": "../assets/imgs/astronauta-2.png"
+        },
+        {
+            "id": 3,
+            "astronaut": "Astronauta 3",
+            "name": "João Inácio (Biro)", 
+            "rkt": 3.75,
+            "image": "../assets/imgs/astronauta-3.png"
+        },
+        {
+            "id": 4,
+            "astronaut": "Astronauta 4",
+            "name": "Tamires Santos", 
+            "rkt": 4.30,
+            "image": "../assets/imgs/astronauta-4.png"
+        }
+    ]
+}
