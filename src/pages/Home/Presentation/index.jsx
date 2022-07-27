@@ -9,7 +9,7 @@ export const Presentation = () => {
       <>
         <ContainerPresentation>
           <div className="content-presentation">
-            <span className="title">Mercado digital para colecionáveis em criptos e tokens não fungível (NFT). Compre, venda e descubra ativos digitais exclusivos para você.</span>
+            <p className="title">Mercado digital para colecionáveis em criptos e tokens não fungível (NFT). Compre, venda e descubra ativos digitais exclusivos para você.</p>
             <div className="artists">
               <img src={imgArtists} alt='Imagem de artistas selecionados'/>
               <div className="details-artists">

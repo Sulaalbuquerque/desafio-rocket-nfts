@@ -1,3 +1,4 @@
+import { Gallery } from "./Gallery"
 import { Header } from "./Header"
 import { Presentation } from "./Presentation"
 import { ContainerHome } from "./style"
@@ -7,8 +8,11 @@ export const Home = () => {
     return (
       <>
         <ContainerHome>
-            <Header/>
-            <Presentation/>
+            <div className="background-img">
+              <Header/>
+              <Presentation/>
+              <Gallery/>
+            </div>
         </ContainerHome>
       </>
     )

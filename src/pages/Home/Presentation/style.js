@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 
 export const ContainerPresentation = styled.section`
-    background-color: ${({ theme }) => theme.bodyBackground};
-    color: ${({ theme }) => theme.textColor};
     padding: 1rem 3rem;
     display: flex;
     flex-direction: column;
@@ -10,12 +8,14 @@ export const ContainerPresentation = styled.section`
 
     .content-presentation{
         display: flex;
-        gap: 1rem;
+        align-items: flex-start;
+        gap: 1.5rem;
     }
 
     .title{
         font-size: 1rem;
         line-height: 1.38rem;
+        margin-top: 0;
     }
 
     .artists{
@@ -59,6 +59,20 @@ export const ContainerPresentation = styled.section`
 
     .stamp{
         height: 5rem;
+    }
+
+    @media (max-width: 430px) {
+        .content-title{
+            flex-direction: column;
+        }
+
+        .content-presentation{
+            flex-direction: column;
+        }
+
+        .artists img{
+            width: 6.5rem;
+        }
     }
 
     @media (min-width: 769px) {

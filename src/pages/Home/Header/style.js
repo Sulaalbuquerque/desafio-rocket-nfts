@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const ContainerHeader = styled.header`
-    background-color: ${({ theme }) => theme.bodyBackground};
     padding: 2rem;
     display: flex;
     justify-content: space-between;
@@ -19,6 +18,7 @@ export const ContainerHeader = styled.header`
         padding: .3rem .5rem;
         font-weight: 700;
         cursor: pointer;
+        font-size: .68rem;
     }
 
     button:hover{
