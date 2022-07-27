@@ -39,9 +39,7 @@ export const ContainerGallery = styled.section`
         }
     }
 
-    @media (min-width: 769px) {
-        padding: 1rem 3rem;
-
+    @media (min-width: 730px) {
         li{
             width: 20%;
         }
@@ -50,5 +48,9 @@ export const ContainerGallery = styled.section`
             width: 100%;
             height: 100%;
         }
+    }
+
+    @media (min-width: 769px) {
+        padding: 1rem 3rem;
     }
 ` 
