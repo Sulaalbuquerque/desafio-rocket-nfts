@@ -32,7 +32,6 @@ export const ContainerFooter = styled.footer`
     }
 
     .main{
-        padding: 2rem;
         border-bottom: solid 1px ${({ theme }) => theme.subtitleColor};
         border-top: solid 1px ${({ theme }) => theme.subtitleColor};
     }
@@ -40,6 +39,7 @@ export const ContainerFooter = styled.footer`
     .form{
         border-bottom: solid 1px ${({ theme }) => theme.subtitleColor};
         padding-bottom: 2rem;
+        padding: 2rem;
     }
 
     .form h4{
@@ -67,7 +67,6 @@ export const ContainerFooter = styled.footer`
         font-weight: 700;
         border: none;
 
-
         :hover{
             background-color: ${({ theme }) => theme.colorLogo};
             color: ${({ theme }) => theme.textColor};
@@ -76,38 +75,77 @@ export const ContainerFooter = styled.footer`
         }
     }
 
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
     .list{
-        background-color: green;
+        padding: 2rem;
     }
 
     .list h6{
         font-weight: 700;
+        font-size: .8rem;
     }
 
     .list ul{
-        background-color: blue;
-        
+        padding-left: 0;
     }
 
     .list li{
-        background-color: gray;
+        padding: .5rem 0;
         list-style-type: none;
-
     }
 
     .list a{
         text-decoration: none;
         color: ${({ theme }) => theme.subtitleColor};
 
+        :hover{
+            color: ${({ theme }) => theme.colorLogo};
+            transition: .8s;
+        }
     }
 
+    .contact{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        color: ${({ theme }) => theme.subtitleColor};
+    }
 
+    .contact ul{
+        display: flex;
+        gap: 1.5rem;
+        padding-left: 0;
+    }
+
+    .contact li{
+        list-style-type: none;
+    }
+
+    .contact img{
+        height: 1.5rem;
+
+        :hover{
+            height: 2rem;
+        }
+    }
 
     @media (min-width: 769px) {
 
         .scroll-top{
             padding: 2rem 4rem 0 4rem;
+        }
 
+        .nav{
+            width: 65%;
+            display: flex;
+            justify-content: space-around;
         }
 
         .main{
@@ -117,7 +155,17 @@ export const ContainerFooter = styled.footer`
         .form{
             border-right: solid 1px ${({ theme }) => theme.subtitleColor};
             border-bottom: none;
+            width: 35%;
+        }
 
+        .list{
+            padding: 1.7rem;
+        }
+
+        .contact{
+            padding: 0 4rem 1rem 4rem;
+            flex-direction: row;
+            justify-content: space-between;
         }
     }
 ` 
