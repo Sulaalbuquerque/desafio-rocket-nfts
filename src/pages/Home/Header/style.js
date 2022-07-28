@@ -22,6 +22,7 @@ export const ContainerHeader = styled.header`
     }
 
     button:hover{
+        transition: 1s;
         background-color: ${({ theme }) => theme.colorLogo};
         color: ${({ theme }) => theme.textColor};
     }

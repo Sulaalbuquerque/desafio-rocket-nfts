@@ -1,3 +1,4 @@
+import { BestArtists } from "./BestArtists"
 import { Description } from "./Description"
 import { Gallery } from "./Gallery"
 import { Header } from "./Header"
@@ -17,6 +18,7 @@ export const Home = () => {
             </div>
             <Description/>
             <PopularWeek/>
+            <BestArtists/>
         </ContainerHome>
       </>
     )

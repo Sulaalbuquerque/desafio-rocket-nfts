@@ -19,6 +19,7 @@ export const ContainerMenu = styled.div`
     }
 
     a:hover{
+        transition: 1s;
         color: ${({ theme }) => theme.colorLogo};
     }
 

@@ -22,6 +22,7 @@ export const ContainerGallery = styled.section`
     }
 
     img:hover{
+        transition: 1s;
         border: solid 2px ${({ theme }) => theme.colorLogo};
     }
 

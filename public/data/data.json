@@ -28,5 +28,44 @@
             "rkt": 4.30,
             "image": "../assets/imgs/astronauta-4.png"
         }
-    ]
+    ],
+    
+    "cardsArtist": [
+        {
+            "id": 1,
+            "name": "Mayk Brito", 
+            "photographs": 80,
+            "image": "../assets/imgs/artista-1.png"
+        },
+        {
+            "id": 2,
+            "name": "Jakeliny G.", 
+            "photographs": 99,
+            "image": "../assets/imgs/artista-2.png"
+        },
+        {
+            "id": 3,
+            "name": "João I. (Biro)", 
+            "photographs": 50,
+            "image": "../assets/imgs/artista-3.png"
+        },
+        {
+            "id": 4,
+            "name": "Tamires Santos", 
+            "photographs": 43,
+            "image": "../assets/imgs/artista-4.png"
+        },
+        {
+            "id": 5,
+            "name": "Ana Silva", 
+            "photographs": 28,
+            "image": "../assets/imgs/artista-5.png"
+        },
+        {
+            "id": 6,
+            "name": "Diego F.", 
+            "photographs": 20,
+            "image": "../assets/imgs/artista-6.png"
+        }
+    ] 
 }
