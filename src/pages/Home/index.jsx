@@ -1,5 +1,6 @@
 import { BestArtists } from "./BestArtists"
 import { Description } from "./Description"
+import { Footer } from "./Footer"
 import { Gallery } from "./Gallery"
 import { Header } from "./Header"
 import { PopularWeek } from "./PopularWeek"
@@ -19,6 +20,7 @@ export const Home = () => {
             <Description/>
             <PopularWeek/>
             <BestArtists/>
+            <Footer/>
         </ContainerHome>
       </>
     )
