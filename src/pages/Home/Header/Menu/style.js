@@ -25,5 +25,5 @@ export const ContainerMenu = styled.div`
 
     @media (min-width: 769px) {
         display: flex;
-    }
+    }    
 ` 
