@@ -24,6 +24,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - HTML5;
 - CSS3;
+- JavaScript;
 - React / Styled-component;
 - Vite;
 - Mobile-first;
