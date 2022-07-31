@@ -1,12 +1,12 @@
 import { ContainerGallery } from "./style"
 
-import imgGaleria1 from './../../../../public/assets/imgs/galeria-1.png'
-import imgGaleria2 from './../../../../public/assets/imgs/galeria-2.png'
-import imgGaleria3 from './../../../../public/assets/imgs/galeria-3.png'
-import imgGaleria4 from './../../../../public/assets/imgs/galeria-4.png'
-import imgGaleria5 from './../../../../public/assets/imgs/galeria-5.png'
-import imgGaleria6 from './../../../../public/assets/imgs/galeria-6.png'
-import imgGaleria7 from './../../../../public/assets/imgs/galeria-7.png'
+import imgGaleria1 from './../../../../public/assets/imgs/galeria-1.webp'
+import imgGaleria2 from './../../../../public/assets/imgs/galeria-2.webp'
+import imgGaleria3 from './../../../../public/assets/imgs/galeria-3.webp'
+import imgGaleria4 from './../../../../public/assets/imgs/galeria-4.webp'
+import imgGaleria5 from './../../../../public/assets/imgs/galeria-5.webp'
+import imgGaleria6 from './../../../../public/assets/imgs/galeria-6.webp'
+import imgGaleria7 from './../../../../public/assets/imgs/galeria-7.webp'
 import imgGaleria8 from './../../../../public/assets/imgs/galeria-8.png'
 
 export const Gallery = () => {

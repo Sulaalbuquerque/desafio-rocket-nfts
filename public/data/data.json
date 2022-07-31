@@ -5,28 +5,28 @@
             "astronaut": "Astronauta 1",
             "name": "Mayk Brito", 
             "rkt": 1.50,
-            "image": "../assets/imgs/astronauta-1.png"
+            "image": "../assets/imgs/astronauta-1.webp"
         },
         {
             "id": 2,
             "astronaut": "Astronauta 2",
             "name": "Jakeliny Gracielly", 
             "rkt": 2.0,
-            "image": "../assets/imgs/astronauta-2.png"
+            "image": "../assets/imgs/astronauta-2.webp"
         },
         {
             "id": 3,
             "astronaut": "Astronauta 3",
             "name": "João Inácio (Biro)", 
             "rkt": 3.75,
-            "image": "../assets/imgs/astronauta-3.png"
+            "image": "../assets/imgs/astronauta-3.webp"
         },
         {
             "id": 4,
             "astronaut": "Astronauta 4",
             "name": "Tamires Santos", 
             "rkt": 4.30,
-            "image": "../assets/imgs/astronauta-4.png"
+            "image": "../assets/imgs/astronauta-4.webp"
         }
     ],
     
@@ -35,37 +35,37 @@
             "id": 1,
             "name": "Mayk Brito", 
             "photographs": 80,
-            "image": "../assets/imgs/artista-1.png"
+            "image": "../assets/imgs/artista-1.webp"
         },
         {
             "id": 2,
             "name": "Jakeliny G.", 
             "photographs": 99,
-            "image": "../assets/imgs/artista-2.png"
+            "image": "../assets/imgs/artista-2.webp"
         },
         {
             "id": 3,
             "name": "João I. (Biro)", 
             "photographs": 50,
-            "image": "../assets/imgs/artista-3.png"
+            "image": "../assets/imgs/artista-3.webp"
         },
         {
             "id": 4,
             "name": "Tamires Santos", 
             "photographs": 43,
-            "image": "../assets/imgs/artista-4.png"
+            "image": "../assets/imgs/artista-4.webp"
         },
         {
             "id": 5,
             "name": "Ana Silva", 
             "photographs": 28,
-            "image": "../assets/imgs/artista-5.png"
+            "image": "../assets/imgs/artista-5.webp"
         },
         {
             "id": 6,
             "name": "Diego F.", 
             "photographs": 20,
-            "image": "../assets/imgs/artista-6.png"
+            "image": "../assets/imgs/artista-6.webp"
         }
     ] 
 }
