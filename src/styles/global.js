@@ -8,13 +8,13 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 
-    /* ::-webkit-scrollbar {
+    ::-webkit-scrollbar {
       width: 6px;
-      background-color: ${({ theme }) => theme.black};
+      background-color: ${({ theme }) => theme.bodyBackground};
     }
     ::-webkit-scrollbar-thumb {
-      background-color: ${({ theme }) => theme.blue};
-    } */
+      background-color: ${({ theme }) => theme.colorLogo};
+    }
   }
 ` 
 export default GlobalStyle;
