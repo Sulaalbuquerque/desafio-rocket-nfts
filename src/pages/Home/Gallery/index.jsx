@@ -1,13 +1,6 @@
 import { ContainerGallery } from "./style"
 
-import imgGaleria1 from './../../../../public/assets/imgs/galeria-1.webp'
-import imgGaleria2 from './../../../../public/assets/imgs/galeria-2.webp'
-import imgGaleria3 from './../../../../public/assets/imgs/galeria-3.webp'
-import imgGaleria4 from './../../../../public/assets/imgs/galeria-4.webp'
-import imgGaleria5 from './../../../../public/assets/imgs/galeria-5.webp'
-import imgGaleria6 from './../../../../public/assets/imgs/galeria-6.webp'
-import imgGaleria7 from './../../../../public/assets/imgs/galeria-7.webp'
-import imgGaleria8 from './../../../../public/assets/imgs/galeria-8.png'
+import data from './../../../../public/data/data.json'
 
 export const Gallery = () => {
   
@@ -16,28 +9,28 @@ export const Gallery = () => {
         <ContainerGallery>
           <ul>
             <li>
-              <img src={imgGaleria1} />
+              <img src={data.imgGallery[0].gallery1} />
             </li>
             <li>
-              <img src={imgGaleria2} />
+              <img src={data.imgGallery[1].gallery2} />
             </li>
             <li>
-              <img src={imgGaleria3} />
+              <img src={data.imgGallery[2].gallery3} />
             </li>
             <li>
-              <img src={imgGaleria4} />
+              <img src={data.imgGallery[3].gallery4} />
             </li>
             <li>
-              <img src={imgGaleria5} />
+              <img src={data.imgGallery[4].gallery5} />
             </li>
             <li>
-              <img src={imgGaleria6} />
+              <img src={data.imgGallery[5].gallery6} />
             </li>
             <li>
-              <img src={imgGaleria7} />
+              <img src={data.imgGallery[6].gallery7} />
             </li>
             <li>
-              <img src={imgGaleria8} />
+              <img src={data.imgGallery[7].gallery8} />
             </li>
           </ul>
         </ContainerGallery>

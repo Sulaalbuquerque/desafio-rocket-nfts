@@ -67,5 +67,16 @@
             "photographs": 20,
             "image": "../assets/imgs/artista-6.webp"
         }
-    ] 
+    ],
+
+    "imgGallery": [
+        {"gallery1": "../assets/imgs/galeria-1.webp"},
+        {"gallery2": "../assets/imgs/galeria-2.webp"},
+        {"gallery3": "../assets/imgs/galeria-3.webp"},
+        {"gallery4": "../assets/imgs/galeria-4.webp"},
+        {"gallery5": "../assets/imgs/galeria-5.webp"},
+        {"gallery6": "../assets/imgs/galeria-6.webp"},
+        {"gallery7": "../assets/imgs/galeria-7.webp"},
+        {"gallery8": "../assets/imgs/galeria-8.png"}
+    ]
 }
