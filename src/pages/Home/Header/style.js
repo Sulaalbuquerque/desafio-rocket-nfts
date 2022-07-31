@@ -27,7 +27,7 @@ export const ContainerHeader = styled.header`
     }
 
     .connect:hover{
-        transition: 1s;
+        transition: .7s;
         background-color: ${({ theme }) => theme.colorLogo};
         color: ${({ theme }) => theme.textColor};
     }
@@ -48,7 +48,7 @@ export const ContainerHeader = styled.header`
         color: ${({ theme }) => theme.textColor};
 
         :hover{
-            transition: .8s;
+            transition: .7s;
             background-color: ${({ theme }) => theme.colorLogo};
         }
     }

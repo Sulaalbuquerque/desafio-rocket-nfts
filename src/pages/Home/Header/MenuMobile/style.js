@@ -32,7 +32,7 @@ export const ContainerMenuMobile = styled.div`
         padding: .5rem .8rem;
 
         :hover{
-            transition: .8s;
+            transition: .7s;
             background-color: ${({ theme }) => theme.colorLogo};
             color: ${({ theme }) => theme.subtitleColor};
         }
@@ -58,7 +58,7 @@ export const ContainerMenuMobile = styled.div`
         padding: 1rem;
 
         :hover{
-            transition: .8s;
+            transition: .7s;
             color: ${({ theme }) => theme.colorLogo};
         }
     }

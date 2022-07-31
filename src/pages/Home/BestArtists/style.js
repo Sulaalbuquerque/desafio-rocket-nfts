@@ -35,7 +35,7 @@ export const ContainerBestArtists = styled.section`
     }
 
     button:hover{
-        transition: 1s;
+        transition: .7s;
         background-color: ${({ theme }) => theme.cardColor};
     }
 

@@ -10,12 +10,12 @@ export const ContainerCardArtist = styled.div`
     min-width: 15rem;
 
     :hover{
-        transition: 1s;
+        transition: .7s;
         background-color: ${({ theme }) => theme.colorLogo};
         cursor: pointer;
 
         .photographs{
-            transition: 1s;
+            transition: .7s;
             color: ${({ theme }) => theme.textColor};
         }
     }

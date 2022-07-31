@@ -22,7 +22,7 @@ export const ContainerGallery = styled.section`
     }
 
     img:hover{
-        transition: 1s;
+        transition: .7s;
         border: solid 2px ${({ theme }) => theme.colorLogo};
     }
 

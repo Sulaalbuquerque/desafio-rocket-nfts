@@ -5,7 +5,7 @@ export const ContainerCard = styled.div`
     padding: .5rem;
 
     :hover{
-        transition: 1s;
+        transition: .7s;
         cursor: pointer;
         background-color: ${({ theme }) => theme.cardColor};
     }

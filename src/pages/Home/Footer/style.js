@@ -70,7 +70,7 @@ export const ContainerFooter = styled.footer`
         :hover{
             background-color: ${({ theme }) => theme.colorLogo};
             color: ${({ theme }) => theme.textColor};
-            transition: .8s;
+            transition: .7s;
             cursor: pointer;
         }
     }
@@ -105,7 +105,7 @@ export const ContainerFooter = styled.footer`
 
         :hover{
             color: ${({ theme }) => theme.colorLogo};
-            transition: .8s;
+            transition: .7s;
         }
     }
 
