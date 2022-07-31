@@ -13,6 +13,11 @@ export const ContainerGallery = styled.section`
     li{
         list-style-type: none;
         margin: .8rem .2rem;
+
+        :hover{
+            transform: scale(1.15);
+            transition: .7s;
+        }
     }
 
     img{

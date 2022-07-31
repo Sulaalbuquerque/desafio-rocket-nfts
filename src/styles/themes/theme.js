@@ -1,5 +1,4 @@
 export const dark = {
-
     bodyBackground: '#0e0e0e',
     colorLogo: '#ff5b50',
     cardColor: '#252525',

@@ -7,21 +7,21 @@ export const Card = ({ astronaut,
                        rkt,
                        img }) => {
   
-    return (
-      <>
-        <ContainerCard>
-        <div className="title">
-          <h3>{astronaut}</h3>
-          <img src={imgArrow} />
-        </div>
+  return (
+    <>
+      <ContainerCard>
+      <div className="title">
+        <h3>{astronaut}</h3>
+        <img src={imgArrow} />
+      </div>
 
-        <div className="data">
-          <span className="name">{name}</span>
-          <span className="rkt">{rkt} RKT</span>
-        </div>
+      <div className="data">
+        <span className="name">{name}</span>
+        <span className="rkt">{rkt} RKT</span>
+      </div>
 
-        <img className="image" src={img} alt="Imagem de astronauta" />
-        </ContainerCard>
-      </>
-    )
-  }
+      <img className="image" src={img} alt="Imagem de astronauta" />
+      </ContainerCard>
+    </>
+  )
+}

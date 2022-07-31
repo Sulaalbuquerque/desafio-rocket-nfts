@@ -12,19 +12,22 @@ import imgBackground from './../../../public/assets/imgs/background.webp'
 
 export const Home = () => {
   
-    return (
-      <>
-        <ContainerHome>
-            <div className="background-img" style={{backgroundImage: `url(${imgBackground})`}}>
-              <Header/>
-              <Presentation/>
-              <Gallery/>
-            </div>
-            <Description/>
-            <PopularWeek/>
-            <BestArtists/>
-            <Footer/>
-        </ContainerHome>
-      </>
-    )
-  }
+  return (
+    <>
+      <ContainerHome>
+        <div 
+          className="background-img" 
+          style={{backgroundImage: `url(${imgBackground})`}}
+        >
+          <Header/>
+          <Presentation/>
+          <Gallery/>
+        </div>
+        <Description/>
+        <PopularWeek/>
+        <BestArtists/>
+        <Footer/>
+      </ContainerHome>
+    </>
+  )
+}
