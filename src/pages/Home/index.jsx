@@ -1,18 +1,21 @@
-import { BestArtists } from "./BestArtists"
-import { Description } from "./Description"
-import { Footer } from "./Footer"
-import { Gallery } from "./Gallery"
 import { Header } from "./Header"
-import { PopularWeek } from "./PopularWeek"
 import { Presentation } from "./Presentation"
+import { Gallery } from "./Gallery"
+import { Description } from "./Description"
+import { PopularWeek } from "./PopularWeek"
+import { BestArtists } from "./BestArtists"
+import { Footer } from "./Footer"
+
 import { ContainerHome } from "./style"
+
+import imgBackground from './../../../public/assets/imgs/background.webp'
 
 export const Home = () => {
   
     return (
       <>
         <ContainerHome>
-            <div className="background-img">
+            <div className="background-img" style={{backgroundImage: `url(${imgBackground})`}}>
               <Header/>
               <Presentation/>
               <Gallery/>
