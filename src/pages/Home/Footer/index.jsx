@@ -55,37 +55,37 @@ export const Footer = () => {
             </div>
 
             <div className="list">
-              <h6>Empresa</h6>
+              <h6>Mapa</h6>
               <ul>
                 <li>
-                  <a href="#">Sobre</a>
+                  <a href="#">Galeria</a>
                 </li>
                 <li>
-                  <a href="#">Serviços</a>
+                  <a href="#">Populares</a>
                 </li>
                 <li>
-                  <a href="#">Time</a>
+                  <a href="#">Vendas</a>
                 </li>
                 <li>
-                  <a href="#">Carreira</a>
+                  <a href="#">Contato</a>
                 </li>
               </ul>
             </div>
 
             <div className="list">
-              <h6>Empresa</h6>
+              <h6>Links</h6>
               <ul>
                 <li>
-                  <a href="#">Sobre</a>
+                  <a href="#">FAQs</a>
                 </li>
                 <li>
-                  <a href="#">Serviços</a>
+                  <a href="#">Termos</a>
                 </li>
                 <li>
-                  <a href="#">Time</a>
+                  <a href="#">Política</a>
                 </li>
                 <li>
-                  <a href="#">Carreira</a>
+                  <a href="#">Ajuda</a>
                 </li>
               </ul>
             </div>
