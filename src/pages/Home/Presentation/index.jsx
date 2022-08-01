@@ -1,6 +1,6 @@
 import { ContainerPresentation } from "./style"
 
-import imgArtists from './../../../../public/assets/imgs/group-avarts.png'
+import imgArtists from './../../../../public/assets/imgs/group-avarts.webp'
 import imgStampRocketseat from './../../../../public/assets/icons/badge.svg'
 
 export const Presentation = () => {

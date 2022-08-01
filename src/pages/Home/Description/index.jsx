@@ -1,6 +1,6 @@
 import { ContainerDescription } from "./style"
 
-import imgDescription from './../../../../public/assets/imgs/banner2.png'
+import imgDescription from './../../../../public/assets/imgs/banner2.webp'
 
 export const Description = () => {
   

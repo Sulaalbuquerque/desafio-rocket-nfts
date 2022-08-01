@@ -1,9 +1,9 @@
 <h1 align="center">Desafio Rocket-NFTs</h1>
 
 <h1 align="center">
-<img width="800" src="public/assets/presentation/rocket-nfts-1.png"/>
-<img width="800" src="public/assets/presentation/rocket-nfts-2.png">
-<img width="800" src="public/assets/presentation/rocket-nfts-3.png"/>
+<img width="800" src="public/assets/presentation/rocket-nfts-1.webp"/>
+<img width="800" src="public/assets/presentation/rocket-nfts-2.webp">
+<img width="800" src="public/assets/presentation/rocket-nfts-3.webp"/>
 </h1>
 
 <h4 align="center">
